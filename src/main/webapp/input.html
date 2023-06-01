@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<form class="form" action="accept"
+		method="get">
+			<div class="form-group">
+				<label class="control-label">
+					Enter Your Amount In Rupees
+				</label>
+				<input type="text" name="txtAmount" class="form-control" placeholder="Amount In Rupees">
+			</div>
+			<div class="radio">
+				<label class="control-label">
+					<input type="radio" 
+					name="radCurrency" value="d">
+					Dollar
+				</label>
+			</div>
+			<div class="radio">
+				<label class="control-label">
+					<input type="radio" 
+					name="radCurrency" value="p">
+					Pound
+				</label>
+			</div>
+			<input type="submit" value="CONVERT"
+			class="btn btn-block btn-success"> 
+		</form>		
+	</div>
+</body>
+</html>
+
+
+
+
